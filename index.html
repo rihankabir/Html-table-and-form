@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Table and Forms</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="box">
+    <form action="#" method="get">
+        <label for="first-name" class="model">First Name:</label>
+        <input type="text" name="first-name" id="first-name" placeholder="Enter your first name"><br><br>
+
+        <label for="last-name" class="model">Last Name:</label>
+        <input type="text" name="last-name" id="last-name" placeholder="Enter your last name"><br><br>
+
+        <label for="email" class="model">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+
+        <label for="password" class="model">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<div class="house">
+    <table class="data" border="1">
+        <tr>
+            <th>Model</th>
+            <th>Processor</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>HP</td>
+            <td>Core i3</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>LENOVO</td>
+            <td>Core i4</td>
+            <td>FRANCE</td>
+        </tr>
+        <tr>
+            <td>ASUS</td>
+            <td>Core i5</td>
+            <td>GERMANY</td>
+        </tr>
+        <tr>
+            <td>DELL</td>
+            <td>Core i6</td>
+            <td>AUSTRALIA</td>
+        </tr>
+        <tr>
+            <td>WALTON</td>
+            <td>Core i7</td>
+            <td>BANGLADESH</td>
+        </tr>
+    </table>
+</div>
+
+<div class="dark">
+    <form>
+        <label class="info">Select one of your skills:</label><br><br>
+
+        <input type="radio" name="language" value="javascript" id="javascript" class="link">
+        <label for="javascript" class="java">JavaScript</label>
+
+        <input type="radio" name="language" value="angular-js" id="angular-js" class="link">
+        <label for="angular-js" class="java">Angular JS</label>
+        <br>
+        <hr>
+
+        <input type="checkbox" name="skill" value="javascript" id="js-check" class="check">
+        <label for="js-check" class="wire">JavaScript</label>
+
+        <input type="checkbox" name="skill" value="vuejs" id="vue-check" class="check">
+        <label for="vue-check" class="wire">Vue JS</label>
+        <hr>
+
+        <label for="language-select">Select a language:</label>
+        <select id="language-select">
+            <option value="javascript">JavaScript</option>
+            <option value="react">React</option>
+            <option value="angular">Angular JS</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
